@@ -6,9 +6,9 @@ body {
   background-position: 50% 133px;
   font: 400 1em/1.38 'Noto Sans';
   color: rgb(0,0,0);
-  -webkit-transition: all 3.3s ease;
-  -moz-transition: all 3.3s ease;
-  transition: all 3.3s ease;        
+  -webkit-transition: background-color 3.3s ease;
+  -moz-transition: background-color 3.3s ease;
+  transition: background-color 3.3s ease;        
 }
 
 .main {
