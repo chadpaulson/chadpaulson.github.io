@@ -1,0 +1,57 @@
+body {
+  height: 100%;
+  background: url('../images/ar.png') rgb(76, 193, 213);
+  background-repeat: no-repeat;
+  background-size: 330px 330px;
+  background-position: 50% 133px;
+  font: 400 1em/1.38 'Noto Sans';
+  color: rgb(0,0,0);
+  -webkit-transition: all 3.3s ease;
+  -moz-transition: all 3.3s ease;
+  transition: all 3.3s ease;        
+}
+
+.main {
+  position: absolute;
+  top: 533px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  width: 100%;
+  height: 411px;
+  margin: 0 auto;
+}
+
+.sm {
+  width: 303px;
+  min-height: 56px;
+  margin: 199px auto 0;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0,0,0);
+}
+
+.main h1 {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  right: 0;
+  width: 303px;
+  min-height: 110px;
+  margin: 0 auto;
+  font-size: 2.063em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.33);
+}
+
+.fa {
+  color: rgba(255, 255, 255, 0.33);
+}
+
+.fa:hover {
+  color: rgba(255, 255, 255, 0.66);
+}
