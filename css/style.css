@@ -37,12 +37,12 @@ h1 {
   color: rgb(0,0,0);
 }
 
-.fa {
+.fab {
   color: rgba(255, 255, 255, 0.45);
   transition: all 0.6s ease;
   padding: 10px;
 }
 
-.fa:hover {
-  color: rgba(255, 255, 255, 0.66);
+.fab:hover {
+  color: rgba(255, 255, 255, 0.89);
 }
