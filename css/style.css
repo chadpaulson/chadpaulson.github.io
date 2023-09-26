@@ -19,6 +19,7 @@ body {
 }
 
 h1 {
+  font: 400 1em/1.38 'Noto Sans';
   font-size: 2.063em;
   font-weight: 700;
   line-height: 1.38;
@@ -26,6 +27,16 @@ h1 {
   text-transform: uppercase;  
   color: rgba(255, 255, 255, 0.45);
   transition: all 0.6s ease;
+}
+
+h1 a, h2 a {
+  color: rgba(255, 255, 255, 0.45);
+  transition: all 0.6s ease;
+}
+
+h1 a:hover, h2 a:hover {
+  background: rgba(255, 255, 255, 0.45);
+  color:#333;
 }
 
 .social {
@@ -45,4 +56,23 @@ h1 {
 
 .fab:hover {
   color: rgba(255, 255, 255, 0.89);
+}
+
+.main {
+  background-color: #333;
+  border-radius: 25px;
+  color:#fff;
+  font-size: 1.8em;
+  font-weight: 400;
+  line-height: 1.38;
+  padding: 10px 30px 10px 30px;
+}
+
+.main a {
+  color: #00A0FF;
+}
+
+.main a:hover {
+  background-color: #ececec;
+  color: #333;
 }
